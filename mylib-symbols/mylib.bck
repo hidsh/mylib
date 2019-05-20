@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1SS178
+D 50V 1A General Purpose Rectifier Diode, DO-41
+K diode
+F http://www.vishay.com/docs/88503/1n4001.pdf
+$ENDCMP
+#
+$CMP ATmega16U4-AU
+D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega16U4RC-AU
+D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, RC Osc, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U4-AU
+D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega32U4RC-AU
+D 16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44
+K AVR 8bit Microcontroller MegaAVR USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP USB_C_Receptacle
+D USB Full-Featured Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP adafruit#2765
+D adafruit Mini 2-Axis Analog Thumbstick PRODUCT ID: 2765
+K adafruit analog thumbstick
+F mylib/doc/P2765.jpg
+$ENDCMP
+#
+#End Doc Library

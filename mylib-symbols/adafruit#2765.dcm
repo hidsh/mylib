@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP adafruit#2765
+D Potentiometer
+K resistor variable
+$ENDCMP
+#
+#End Doc Library

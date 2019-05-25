@@ -30,10 +30,28 @@ K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
+$CMP AudioJack4_Ground_x2
+D Audio Jack, 4 Poles (TRRS), Grounded Sleeve
+K audio jack receptacle stereo headphones TRRS connector
+F ~
+$ENDCMP
+#
+$CMP D_ALT_multi_x4
+D Diode, filled shape
+K diode
+F https://www.rohm.com/datasheet/RB521ZS8A30/rb521zs8a30te61-e
+$ENDCMP
+#
 $CMP MCP23017_SS
 D 16-bit I/O expander, I2C, interrupts, w pull-ups, SSOP-28
 K I2C parallel port expander
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP RB521ZS8A30
+D SMD x4 Schottky Barrier Diode Array
+K schottkey barrier, diode, smd
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 $ENDCMP
 #
 $CMP USB_C_Receptacle
